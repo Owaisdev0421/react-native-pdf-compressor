@@ -1,5 +1,9 @@
 # react-native-pdf-compressor
 
+[![CI](https://github.com/Owaisdev0421/react-native-pdf-compressor/actions/workflows/ci.yml/badge.svg)](https://github.com/Owaisdev0421/react-native-pdf-compressor/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/react-native-pdf-compressor.svg)](https://www.npmjs.com/package/react-native-pdf-compressor)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 On-device PDF compression for **React Native** and **Expo**. Shrinks large PDFs (scanned documents, receipts, camera-generated PDFs) before upload — no server, no network, everything runs locally on the device.
 
 - 📱 **iOS + Android** — native implementations on both platforms (Swift / Kotlin)
