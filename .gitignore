@@ -1,0 +1,19 @@
+# Node
+node_modules/
+
+# Build output
+build/
+
+# macOS
+.DS_Store
+
+# Android
+android/build/
+android/.gradle/
+
+# iOS
+ios/Pods/
+ios/build/
+
+# Logs
+*.log

@@ -1,0 +1,62 @@
+{
+  "name": "react-native-pdf-compressor",
+  "version": "0.1.0",
+  "description": "On-device PDF compression for React Native and Expo. Shrinks large PDFs (scans, receipts, documents) by rasterizing pages and re-embedding them as JPEG — no server, no native rebuild logic required.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "pdf",
+    "compress",
+    "compression",
+    "pdf-compressor",
+    "compress-pdf",
+    "file-size",
+    "ios",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Owaisdev0421/react-native-pdf-compressor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Owaisdev0421/react-native-pdf-compressor/issues"
+  },
+  "author": "Owais Raza (https://github.com/Owaisdev0421)",
+  "license": "MIT",
+  "homepage": "https://github.com/Owaisdev0421/react-native-pdf-compressor#readme",
+  "files": [
+    "build",
+    "src",
+    "ios",
+    "android/build.gradle",
+    "android/src",
+    "expo-module.config.json",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "devDependencies": {
+    "expo": "^54.0.0",
+    "expo-module-scripts": "^5.0.7",
+    "expo-modules-core": "^3.0.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "~5.9.2"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
