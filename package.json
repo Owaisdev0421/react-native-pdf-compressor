@@ -1,11 +1,11 @@
 {
   "name": "react-native-pdf-compressor",
   "version": "0.1.0",
-  "description": "On-device PDF compression for React Native and Expo. Shrinks large PDFs (scans, receipts, documents) by rasterizing pages and re-embedding them as JPEG — no server, no native rebuild logic required.",
+  "description": "On-device PDF compression for React Native and Expo. Shrinks large PDFs (scans, receipts, documents) by rasterizing pages and re-embedding them as JPEG \u2014 no server, no native rebuild logic required.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    "build": "expo-module build",
+    "build": "node init && expo-module build",
     "clean": "expo-module clean",
     "lint": "expo-module lint",
     "test": "expo-module test",
